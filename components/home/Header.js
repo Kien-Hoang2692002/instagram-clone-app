@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
-const Header = () => {
+const Header = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity>
@@ -11,7 +11,7 @@ const Header = () => {
       </TouchableOpacity>
 
       <View style={styles.iconContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("NewPostScreen")}>
           <Image
             style={styles.icon}
             source={require("../../assets/icons/plus.png")}

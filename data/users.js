@@ -12,12 +12,12 @@ export const USERS = [
   {
     users: "Jessica2",
     image:
-      "https://cdn2.iconfinder.com/data/icons/instagram-ui/48/jee-75-512.png",
+      "https://anhcuoiviet.vn/wp-content/uploads/2022/11/avatar-dep-dang-yeu-nu-5.jpg",
   },
   {
-    users: "Jonathan",
+    users: "Jonathan2",
     image:
-      "https://icon-library.com/images/users-icon-png/users-icon-png-15.jpg",
+      "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/avatar-dep-10-1.jpg",
   },
   {
     users: "Jessica123456789",

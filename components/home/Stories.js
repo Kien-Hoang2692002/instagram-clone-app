@@ -1,6 +1,5 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, ScrollView } from "react-native";
 import { USERS } from "../../data/users";
-import { ScrollView } from "react-native-web";
 
 const Stories = () => {
   return (
@@ -9,7 +8,7 @@ const Stories = () => {
         {USERS.map((story, index) => {
           return (
             <View key={index} style={{ alignItems: "center" }}>
-              <Image source={{ uri: story.image }} style={styles.story} />;
+              <Image source={{ uri: story.image }} style={styles.story} />
               <Text style={{ color: "white" }}>
                 {story.users.length > 11
                   ? story.users.slice(0, 10).toLowerCase() + "..."
